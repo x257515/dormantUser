@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CucumberTests" duration-ms="141264" started-at="2023-06-02T19:59:30 IST" finished-at="2023-06-02T20:01:51 IST">
+    <groups>
+    </groups>
+    <test name="CucumberTests" duration-ms="141264" started-at="2023-06-02T19:59:30 IST" finished-at="2023-06-02T20:01:51 IST">
+      <class name="com.telus.manage.dormantUser">
+        <test-method status="PASS" signature="active_user(java.lang.String,java.lang.String)[pri:0, instance:com.telus.manage.dormantUser@5298dead]" name="active_user" duration-ms="45672" started-at="2023-06-02T19:59:31 IST" data-provider="getData" finished-at="2023-06-02T20:00:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[perftestuser4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- active_user -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.telus.manage.dormantUser@5298dead]" name="tearDown" is-config="true" duration-ms="1152" started-at="2023-06-02T20:00:17 IST" finished-at="2023-06-02T20:00:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="active_user(java.lang.String,java.lang.String)[pri:0, instance:com.telus.manage.dormantUser@5298dead]" name="active_user" duration-ms="44390" started-at="2023-06-02T20:00:18 IST" data-provider="getData" finished-at="2023-06-02T20:01:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[perftestuser6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- active_user -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.telus.manage.dormantUser@5298dead]" name="tearDown" is-config="true" duration-ms="1015" started-at="2023-06-02T20:01:03 IST" finished-at="2023-06-02T20:01:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="active_user(java.lang.String,java.lang.String)[pri:0, instance:com.telus.manage.dormantUser@5298dead]" name="active_user" duration-ms="46204" started-at="2023-06-02T20:01:04 IST" data-provider="getData" finished-at="2023-06-02T20:01:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[perftestuser9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- active_user -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.telus.manage.dormantUser@5298dead]" name="tearDown" is-config="true" duration-ms="846" started-at="2023-06-02T20:01:50 IST" finished-at="2023-06-02T20:01:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.telus.manage.dormantUser -->
+    </test> <!-- CucumberTests -->
+  </suite> <!-- CucumberTests -->
+</testng-results>
